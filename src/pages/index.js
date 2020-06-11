@@ -1,6 +1,12 @@
 import React from "react"
 
-import Menu from "../components/menu";
 import ComingSoon from "../components/coming-soon";
+import Layout from "../components/layout";
+import SEO from "../components/seo";
 
-export default () => <div><Menu /><ComingSoon /></div>
+export default () => (
+    <Layout>
+        <SEO title='Coming Soon'/>
+        <ComingSoon />
+    </Layout>
+)
