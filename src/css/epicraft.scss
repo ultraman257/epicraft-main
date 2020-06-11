@@ -1,0 +1,66 @@
+@import url("https://use.typekit.net/gfi1nhm.css");
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Prohibition', sans-serif;
+}
+
+.menu {
+  background: black;
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  ul {
+    display: block;
+    li {
+      display: inline-block;
+    }
+  }
+  p, a {
+    font-size: 1.5em;
+    text-decoration: none;
+    padding: 0 20px;
+    display: inline-block;
+    color: white;
+    vertical-align: middle;
+    line-height: 1rem;
+    transition: color 0.3s ease;
+  }
+  a:hover {
+    color: #999999;
+  }
+  p {
+    color: #2171d6;
+    line-height: 1rem;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+  }
+}
+
+.coming-soon {
+  height: 100vh;
+  width: 100vw;
+  background: #2171d6;
+  text-align: center;
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding-top: 10%;
+    p, h3 {
+      padding: 0;
+      margin: 0;
+      line-height: 0.9em;
+    }
+    p {
+      font-size: 2em;
+      color: #e0e0e0;
+    }
+    h3 {
+      font-size: 6rem;
+    }
+  }
+}

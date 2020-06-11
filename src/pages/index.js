@@ -1,3 +1,6 @@
 import React from "react"
 
-export default () => <div>Hello world!</div>
+import Menu from "../components/menu";
+import ComingSoon from "../components/coming-soon";
+
+export default () => <div><Menu /><ComingSoon /></div>
